@@ -30,7 +30,7 @@ function addMessage(text, sender = "bot") {
 
 // AI に問い合わせ
 async function askAI(userText) {
-  const apiKey = "sk-ここに本物のキーを貼る";
+  const apiKey = "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";
 
   // ユーザーの発言を履歴に追加
   messages.push({ role: "user", content: userText });
